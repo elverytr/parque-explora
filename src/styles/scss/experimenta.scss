@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&family=Source+Sans+Pro:wght@600&display=swap');
+
+.container{    
+    box-sizing: border-box;
+    min-height: calc(100vh - 60px);
+    text-align: center;
+    overflow: hidden;
+}
+.bg1{
+    background: url("https://i.ibb.co/N2xcJCD/INTRO-FONDO.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.bg2{
+    background: url("https://i.ibb.co/gTMnvk0/OBJETIVO-FONDO-COMPLETO.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.bg3{
+    background-color: #a569d1;
+}
+.bg4{
+    background-color: #eeeeee;
+}

@@ -1,17 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import "./styles/scss/main.scss";
+import ReactDOM from "react-dom";
+import Routes from "./routers/Routes";
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+
+
+//Theme for chakra provider
+const theme = extendTheme({
+  styles: {
+    global: {
+      // styles for the `body`
+      body: {
+        bg: "#eeeeee",
+        color: "black",
+      },
+    },
+  },
+});
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <ChakraProvider theme={theme}>
+    <React.StrictMode>
+      <Routes />
+    </React.StrictMode>
+  </ChakraProvider>,
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

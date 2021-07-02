@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-color: black;
+    border: 0;
+    color: #5a5a5a;
+    margin: 0;
+}
+
+a{    
+  text-decoration: none;
+  &:visited{
+    color: #303131;
+    border: 1px solid black;
+  }
+}
