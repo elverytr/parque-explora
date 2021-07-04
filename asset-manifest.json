@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/parque-explora/static/css/main.6ade7006.chunk.css",
-    "main.js": "/parque-explora/static/js/main.81d595a4.chunk.js",
-    "main.js.map": "/parque-explora/static/js/main.81d595a4.chunk.js.map",
+    "main.css": "/parque-explora/static/css/main.d1dce6f7.chunk.css",
+    "main.js": "/parque-explora/static/js/main.c6c98960.chunk.js",
+    "main.js.map": "/parque-explora/static/js/main.c6c98960.chunk.js.map",
     "runtime-main.js": "/parque-explora/static/js/runtime-main.bb5fc585.js",
     "runtime-main.js.map": "/parque-explora/static/js/runtime-main.bb5fc585.js.map",
-    "static/js/2.539e036d.chunk.js": "/parque-explora/static/js/2.539e036d.chunk.js",
-    "static/js/2.539e036d.chunk.js.map": "/parque-explora/static/js/2.539e036d.chunk.js.map",
+    "static/js/2.920f2569.chunk.js": "/parque-explora/static/js/2.920f2569.chunk.js",
+    "static/js/2.920f2569.chunk.js.map": "/parque-explora/static/js/2.920f2569.chunk.js.map",
     "index.html": "/parque-explora/index.html",
-    "static/css/main.6ade7006.chunk.css.map": "/parque-explora/static/css/main.6ade7006.chunk.css.map",
-    "static/js/2.539e036d.chunk.js.LICENSE.txt": "/parque-explora/static/js/2.539e036d.chunk.js.LICENSE.txt"
+    "static/css/main.d1dce6f7.chunk.css.map": "/parque-explora/static/css/main.d1dce6f7.chunk.css.map",
+    "static/js/2.920f2569.chunk.js.LICENSE.txt": "/parque-explora/static/js/2.920f2569.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bb5fc585.js",
-    "static/js/2.539e036d.chunk.js",
-    "static/css/main.6ade7006.chunk.css",
-    "static/js/main.81d595a4.chunk.js"
+    "static/js/2.920f2569.chunk.js",
+    "static/css/main.d1dce6f7.chunk.css",
+    "static/js/main.c6c98960.chunk.js"
   ]
 }
